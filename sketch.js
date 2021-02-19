@@ -82,7 +82,7 @@ function draw() {
   packageSprite.y= packageBody.position.y 
 
  if (keyCode === DOWN_ARROW){
-	 Matter.Body.setStatic(packageBody,)
+	 Matter.Body.setStatic(packageBody,false)
  }
   drawSprites();
   
